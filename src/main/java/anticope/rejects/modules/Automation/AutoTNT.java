@@ -89,7 +89,7 @@ public class AutoTNT extends Module {
     private int igniteTick = 0;
 
     public AutoTNT() {
-        super(Categories.Misc, "auto-tnt", "Ignites tnt automatically. Good for griefing.");
+        super(MeteorRejectsAddon.Automation, "auto-tnt", "Ignites tnt automatically. Good for griefing.");
     }
 
     @Override

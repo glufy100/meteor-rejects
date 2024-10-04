@@ -94,7 +94,7 @@ public class AutoCommand extends Module {
     private boolean sent;
 
     public AutoCommand() {
-        super(Categories.Misc,  "auto-command", "Automatically runs commands when player has/gets operator access");
+        super(MeteorRejectsAddon.Automation,  "auto-command", "Automatically runs commands when player has/gets operator access");
     }
 
     @Override

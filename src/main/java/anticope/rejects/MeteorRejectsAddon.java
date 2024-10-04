@@ -22,7 +22,6 @@ public class MeteorRejectsAddon extends MeteorAddon {
     public static final Logger LOG = LoggerFactory.getLogger("Rejects");
     public static final Category Automation = new Category("Automation", Items.REDSTONE.getDefaultStack());
     public static final Category Build = new Category("Build", Items.BRICKS.getDefaultStack());
-    public static final Category CATEGORY = new Category("Rejects", Items.BARRIER.getDefaultStack());
     public static final HudGroup HUD_GROUP = new HudGroup("Rejects");
 
     @Override
@@ -154,8 +153,6 @@ public class MeteorRejectsAddon extends MeteorAddon {
     public void onRegisterCategories() {
         Modules.registerCategory(Automation);
         Modules.registerCategory(Build);
-        Modules.registerCategory(CATEGORY);
-
     }
     
 

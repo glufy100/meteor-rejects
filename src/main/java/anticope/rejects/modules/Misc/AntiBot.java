@@ -61,7 +61,7 @@ public class AntiBot extends Module {
     );
 
     public AntiBot() {
-        super(Categories.Combat, "anti-bot", "Detects and removes bots.");
+        super(Categories.Misc, "anti-bot", "Detects and removes bots.");
     }
 
     @EventHandler

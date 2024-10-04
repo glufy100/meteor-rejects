@@ -59,7 +59,7 @@ public class AutoScoreboard extends Module {
     );
 
     public AutoScoreboard() {
-        super(Categories.Misc, "auto-scoreboard", "Automatically create a scoreboard using Starscript. Requires operator access.");
+        super(MeteorRejectsAddon.Automation, "auto-scoreboard", "Automatically create a scoreboard using Starscript. Requires operator access.");
     }
 
     @Override

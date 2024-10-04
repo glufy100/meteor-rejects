@@ -443,7 +443,7 @@ public class HandOfGod extends Module {
     );
 
     public HandOfGod() {
-        super(MeteorRejectsAddon.Build, "HandOfGod", "Modify the world and troll players with automated /fill commands. (Must have OP status)");
+        super(MeteorRejectsAddon.Automation, "HandOfGod", "Modify the world and troll players with automated /fill commands. (Must have OP status)");
     }
 
     private CopyOnWriteArrayList<PlayerListEntry> players;

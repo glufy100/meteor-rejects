@@ -300,7 +300,6 @@ import meteordevelopment.meteorclient.systems.modules.Categories;
         super(Categories.Player, "RedstoneNuker", "Breaks redstone, to keep you safe when placing TNT.");
     }
  
- 
      @Override
      public void onActivate() {
          firstBlock = true;

@@ -53,7 +53,7 @@ public class ChatBot extends Module {
     );
 
     public ChatBot() {
-        super(Categories.Movement, "chat-bot", "Bot which automatically responds to chat messages.");
+        super(Categories.Misc, "chat-bot", "Bot which automatically responds to chat messages.");
     }
 
     @EventHandler

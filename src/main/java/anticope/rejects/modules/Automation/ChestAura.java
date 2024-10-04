@@ -90,7 +90,7 @@ public class ChestAura extends Module {
     private int timer = 0;
 
     public ChestAura() {
-        super(Categories.Misc, "chest-aura", "Automatically open chests in radius");
+        super(MeteorRejectsAddon.Automation, "chest-aura", "Automatically open chests in radius");
     }
 
     @Override

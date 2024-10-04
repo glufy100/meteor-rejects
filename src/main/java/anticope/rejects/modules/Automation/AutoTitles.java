@@ -214,7 +214,7 @@ public class AutoTitles extends Module {
     );
     
     public AutoTitles() {
-        super(Categories.Misc, "AutoTitles", "Creates text across the screens for online players. Requires OP.");
+        super(MeteorRejectsAddon.Automation, "AutoTitles", "Creates text across the screens for online players. Requires OP.");
     }
 
 
