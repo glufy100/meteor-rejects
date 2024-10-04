@@ -56,7 +56,7 @@ public class AutoLogin extends Module {
     private final Timer timer = new Timer();
 
     public AutoLogin() {
-        super(MeteorRejectsAddon.CATEGORY, "auto-login", "Runs command when joining specified server.");
+        super(MeteorRejectsAddon.Automation, "auto-login", "Runs command when joining specified server.");
         runInMainMenu = true;
     }
 

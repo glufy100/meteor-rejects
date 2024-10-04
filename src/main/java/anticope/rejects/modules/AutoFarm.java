@@ -132,7 +132,7 @@ public class AutoFarm extends Module {
     int actions = 0;
 
     public AutoFarm() {
-        super(MeteorRejectsAddon.CATEGORY, "auto-farm", "All-in-one farm utility.");
+        super(MeteorRejectsAddon.Automation, "auto-farm", "All-in-one farm utility.");
     }
 
     @Override

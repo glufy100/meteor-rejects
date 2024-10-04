@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.BoolSetting;
@@ -50,7 +51,7 @@ public class AutoCraft extends Module {
     );
 
     public AutoCraft() {
-        super(MeteorRejectsAddon.CATEGORY, "auto-craft", "Automatically crafts items.");
+        super(Categories.Misc, "auto-craft", "Automatically crafts items.");
     }
     
     @EventHandler

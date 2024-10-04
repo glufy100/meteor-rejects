@@ -20,6 +20,8 @@ import org.slf4j.LoggerFactory;
 
 public class MeteorRejectsAddon extends MeteorAddon {
     public static final Logger LOG = LoggerFactory.getLogger("Rejects");
+    public static final Category Automation = new Category("Automation", Items.REDSTONE.getDefaultStack());
+    public static final Category Build = new Category("Build", Items.BRICKS.getDefaultStack());
     public static final Category CATEGORY = new Category("Rejects", Items.BARRIER.getDefaultStack());
     public static final HudGroup HUD_GROUP = new HudGroup("Rejects");
 
@@ -86,6 +88,41 @@ public class MeteorRejectsAddon extends MeteorAddon {
         modules.add(new AutoEnchant());
         modules.add(new AutoRename());
 
+        modules.add(new AirstrikePlus());
+        modules.add(new AnHero());
+        modules.add(new AutoCommand());
+        modules.add(new AutoDisplays());
+        modules.add(new AutoDrop());
+        modules.add(new AutoLavaCaster());
+        modules.add(new AutoMountain());
+        modules.add(new AutoScoreboard());
+        modules.add(new AutoStaircase());
+        modules.add(new AutoTitles());
+        modules.add(new BaseFinder());
+        modules.add(new BlockListMineCommand());
+        modules.add(new BoatKill());
+        modules.add(new BookAndQuillDupe());
+        modules.add(new BoomPlus());
+        modules.add(new ExplosionAura());
+        modules.add(new FlightAntikick());
+        modules.add(new HandOfGod());
+        modules.add(new HoleAndTunnelAndStairsESP());
+        modules.add(new InstaMineNuker());
+        modules.add(new InstantKill());
+        modules.add(new InstaSafetyBox());        
+        modules.add(new LavaAura());
+        modules.add(new MaceKill());
+        modules.add(new NbtEditor());
+        modules.add(new NewerNewChunks());
+        modules.add(new OPplayerTPmodule());
+        modules.add(new OPServerKillModule());
+        modules.add(new RedstoneNuker());
+        modules.add(new ShulkerDupe());
+        modules.add(new StorageLooter());
+        modules.add(new Teleport());
+        modules.add(new TPFly());
+        modules.add(new TrailMaker());
+
         // Commands
         Commands.add(new CenterCommand());
         Commands.add(new ClearChatCommand());
@@ -112,10 +149,15 @@ public class MeteorRejectsAddon extends MeteorAddon {
         GuiThemes.add(new MeteorRoundedGuiTheme());
     }
 
+
     @Override
     public void onRegisterCategories() {
+        Modules.registerCategory(Automation);
+        Modules.registerCategory(Build);
         Modules.registerCategory(CATEGORY);
+
     }
+    
 
     @Override
     public String getWebsite() {

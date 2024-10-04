@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import com.mojang.brigadier.suggestion.Suggestion;
 import meteordevelopment.meteorclient.events.game.ReceiveMessageEvent;
@@ -54,7 +55,7 @@ public class AntiVanish extends Module {
     private int timer = 0;
 
     public AntiVanish() {
-        super(MeteorRejectsAddon.CATEGORY, "anti-vanish", "Notifies user when a admin uses /vanish");
+        super(Categories.Misc, "anti-vanish", "Notifies user when a admin uses /vanish");
     }
 
     @Override

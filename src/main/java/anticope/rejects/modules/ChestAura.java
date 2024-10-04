@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import anticope.rejects.mixininterface.IInventoryTweaks;
 import com.mojang.blaze3d.systems.RenderSystem;
@@ -89,7 +90,7 @@ public class ChestAura extends Module {
     private int timer = 0;
 
     public ChestAura() {
-        super(MeteorRejectsAddon.CATEGORY, "chest-aura", "Automatically open chests in radius");
+        super(Categories.Misc, "chest-aura", "Automatically open chests in radius");
     }
 
     @Override

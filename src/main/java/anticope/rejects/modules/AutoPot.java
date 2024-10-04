@@ -1,7 +1,7 @@
 package anticope.rejects.modules;
 
 //import baritone.api.BaritoneAPI;
-
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import baritone.api.BaritoneAPI;
 import meteordevelopment.meteorclient.events.entity.player.ItemUseCrosshairTargetEvent;
@@ -87,7 +87,7 @@ public class AutoPot extends Module {
     private boolean wasBaritone;
 
     public AutoPot() {
-        super(MeteorRejectsAddon.CATEGORY, "auto-pot", "Automatically Drinks Potions");
+        super(Categories.Combat, "auto-pot", "Automatically Drinks Potions");
     }
 
     // TODO : Add option to scan whole inv - then either swap item to hotbar if full or just place in first empty slot

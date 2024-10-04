@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import anticope.rejects.gui.screens.InteractionScreen;
 import anticope.rejects.settings.StringMapSetting;
@@ -84,7 +85,7 @@ public class InteractionMenu extends Module {
     );
 
     public InteractionMenu() {
-        super(MeteorRejectsAddon.CATEGORY, "interaction-menu", "An interaction screen when looking at an entity.");
+        super(Categories.Render, "interaction-menu", "An interaction screen when looking at an entity.");
         MeteorStarscript.ss.set("entity", () -> wrap(InteractionScreen.interactionMenuEntity));
     }
 

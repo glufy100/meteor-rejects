@@ -86,7 +86,7 @@ public class AutoExtinguish extends Module {
     private static final StatusEffect FIRE_RESISTANCE = Registries.STATUS_EFFECT.get(Identifier.of("fire_resistance"));
 
     public AutoExtinguish() {
-        super(MeteorRejectsAddon.CATEGORY, "auto-extinguish", "Automatically extinguishes fire around you");
+        super(MeteorRejectsAddon.Automation, "auto-extinguish", "Automatically extinguishes fire around you");
     }
 
     @EventHandler

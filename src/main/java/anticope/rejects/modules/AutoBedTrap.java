@@ -61,7 +61,7 @@ public class AutoBedTrap extends Module {
     int cap = 0;
 
     public AutoBedTrap() {
-        super(MeteorRejectsAddon.CATEGORY, "auto-bed-trap", "Automatically places obsidian around beds");
+        super(MeteorRejectsAddon.Build, "auto-bed-trap", "Automatically places obsidian around beds");
     }
 
     @Override

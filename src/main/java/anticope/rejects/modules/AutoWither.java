@@ -117,7 +117,7 @@ public class AutoWither extends Module {
     private int witherTicksWaited, blockTicksWaited;
     
     public AutoWither() {
-        super(MeteorRejectsAddon.CATEGORY, "auto-wither", "Automatically builds withers.");
+        super(MeteorRejectsAddon.Build, "auto-wither", "Automatically builds withers.");
     }
     
     @Override

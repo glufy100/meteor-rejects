@@ -23,7 +23,7 @@ public class ObsidianFarm extends Module {
     private boolean allowBreakAgain;
     
     public ObsidianFarm() {
-        super(MeteorRejectsAddon.CATEGORY, "obsidian-farm", "Auto obsidian farm(portals).");
+        super(MeteorRejectsAddon.Automation, "obsidian-farm", "Auto obsidian farm(portals).");
     }
 
     @Override

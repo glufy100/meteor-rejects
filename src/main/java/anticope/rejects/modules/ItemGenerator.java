@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.IntSetting;
@@ -40,7 +41,7 @@ public class ItemGenerator extends Module {
     private final Random random = Random.create();
 
     public ItemGenerator() {
-        super(MeteorRejectsAddon.CATEGORY, "item-generator", "Generates random items and drops them on the ground. Creative mode only.");
+        super(Categories.Misc, "item-generator", "Generates random items and drops them on the ground. Creative mode only.");
     }
 
     @Override

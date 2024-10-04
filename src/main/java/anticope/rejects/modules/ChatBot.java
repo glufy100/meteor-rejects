@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import anticope.rejects.settings.StringMapSetting;
 import meteordevelopment.meteorclient.events.game.ReceiveMessageEvent;
@@ -52,7 +53,7 @@ public class ChatBot extends Module {
     );
 
     public ChatBot() {
-        super(MeteorRejectsAddon.CATEGORY, "chat-bot", "Bot which automatically responds to chat messages.");
+        super(Categories.Movement, "chat-bot", "Bot which automatically responds to chat messages.");
     }
 
     @EventHandler

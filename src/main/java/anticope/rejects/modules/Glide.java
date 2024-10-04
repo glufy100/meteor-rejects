@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import anticope.rejects.events.OffGroundSpeedEvent;
 import meteordevelopment.meteorclient.events.world.TickEvent;
@@ -44,7 +45,7 @@ public class Glide extends Module {
     );
 
     public Glide() {
-        super(MeteorRejectsAddon.CATEGORY, "glide", "Yeehaw!");
+        super(Categories.Movement, "glide", "Yeehaw!");
     }
 
     @EventHandler

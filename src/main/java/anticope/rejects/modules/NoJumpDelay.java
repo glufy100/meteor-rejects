@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.mixin.LivingEntityAccessor;
@@ -9,7 +10,7 @@ import meteordevelopment.meteorclient.systems.modules.Module;
 public class NoJumpDelay extends Module {
 
     public NoJumpDelay() {
-        super(MeteorRejectsAddon.CATEGORY, "no-jump-delay", "NoJumpDelay.");
+        super(Categories.Movement, "no-jump-delay", "NoJumpDelay.");
     }
 
     @EventHandler

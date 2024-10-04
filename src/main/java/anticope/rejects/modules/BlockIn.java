@@ -62,7 +62,7 @@ public class BlockIn extends Module {
     private double sY;
     
     public BlockIn() {
-        super(MeteorRejectsAddon.CATEGORY, "block-in", "Block yourself in using any block.");
+        super(MeteorRejectsAddon.Build, "block-in", "Block yourself in using any block.");
     }
     
     @Override

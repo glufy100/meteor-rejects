@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.BoolSetting;
@@ -60,7 +61,7 @@ public class ExtraElytra extends Module {
     }
 
     public ExtraElytra() {
-        super(MeteorRejectsAddon.CATEGORY, "extra-elytra", "Easier elytra");
+        super(Categories.Movement, "extra-elytra", "Easier elytra");
     }
 
     @EventHandler

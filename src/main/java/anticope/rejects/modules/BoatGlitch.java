@@ -1,5 +1,7 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import meteordevelopment.meteorclient.events.entity.BoatMoveEvent;
 import meteordevelopment.meteorclient.events.meteor.KeyEvent;
@@ -40,7 +42,7 @@ public class BoatGlitch extends Module {
     private boolean boatPhaseEnabled;
 
     public BoatGlitch() {
-        super(MeteorRejectsAddon.CATEGORY, "boat-glitch", "Glitches your boat into the block beneath you.  Dismount to trigger.");
+        super(Categories.Movement, "boat-glitch", "Glitches your boat into the block beneath you.  Dismount to trigger.");
     }
 
     @Override

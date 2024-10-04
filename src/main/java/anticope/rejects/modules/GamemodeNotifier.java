@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import anticope.rejects.settings.GameModeListSetting;
 import meteordevelopment.meteorclient.events.packets.PacketEvent;
@@ -22,7 +23,7 @@ public class GamemodeNotifier extends Module {
     );
 
     public GamemodeNotifier() {
-        super(MeteorRejectsAddon.CATEGORY, "gamemode-notifier", "Notifies user a player's gamemode was changed.");
+        super(Categories.Misc, "gamemode-notifier", "Notifies user a player's gamemode was changed.");
     }
 
     @EventHandler

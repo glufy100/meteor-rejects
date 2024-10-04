@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import anticope.rejects.events.OffGroundSpeedEvent;
 import meteordevelopment.meteorclient.events.world.TickEvent;
@@ -23,7 +24,7 @@ public class Jetpack extends Module {
     );
 
     public Jetpack() {
-        super(MeteorRejectsAddon.CATEGORY, "jetpack", "Flies as if using a jetpack.");
+        super(Categories.Movement, "jetpack", "Flies as if using a jetpack.");
     }
 
     @EventHandler

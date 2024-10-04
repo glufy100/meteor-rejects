@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import meteordevelopment.meteorclient.events.packets.PacketEvent;
 import meteordevelopment.meteorclient.settings.BoolSetting;
@@ -25,7 +26,7 @@ public class AntiSpawnpoint extends Module {
     );
 
     public AntiSpawnpoint() {
-        super(MeteorRejectsAddon.CATEGORY, "anti-spawnpoint", "Protects the player from losing the respawn point.");
+        super(Categories.Misc, "anti-spawnpoint", "Protects the player from losing the respawn point.");
     }
 
     @EventHandler

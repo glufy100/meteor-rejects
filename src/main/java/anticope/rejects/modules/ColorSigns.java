@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import meteordevelopment.meteorclient.events.packets.PacketEvent;
 import meteordevelopment.meteorclient.settings.BoolSetting;
@@ -33,7 +34,7 @@ public class ColorSigns extends Module {
     );
 
     public ColorSigns() {
-        super(MeteorRejectsAddon.CATEGORY, "color-signs", "Allows you to use colors on signs on NON-PAPER servers (use \"&\" for color symbols)");
+        super(Categories.Misc, "color-signs", "Allows you to use colors on signs on NON-PAPER servers (use \"&\" for color symbols)");
     }
 
     @EventHandler

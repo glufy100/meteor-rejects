@@ -1,5 +1,7 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
+
 import anticope.rejects.MeteorRejectsAddon;
 import anticope.rejects.utils.RejectsUtils;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
@@ -95,7 +97,7 @@ public class AimAssist extends Module {
     private Entity target;
 
     public AimAssist() {
-        super(MeteorRejectsAddon.CATEGORY, "aim-assist", "Automatically aims at entities.");
+        super(Categories.Combat, "aim-assist", "Automatically aims at entities.");
     }
 
     @EventHandler

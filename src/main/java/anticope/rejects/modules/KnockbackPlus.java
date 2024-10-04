@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import meteordevelopment.meteorclient.events.packets.PacketEvent;
 import meteordevelopment.meteorclient.mixininterface.IPlayerInteractEntityC2SPacket;
@@ -26,7 +27,7 @@ public class KnockbackPlus extends Module {
     );
 
     public KnockbackPlus() {
-        super(MeteorRejectsAddon.CATEGORY, "knockback-plus", "Performs more KB when you hit your target.");
+        super(Categories.Combat, "knockback-plus", "Performs more KB when you hit your target.");
     }
 
     @EventHandler

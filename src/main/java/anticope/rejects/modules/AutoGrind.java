@@ -49,7 +49,7 @@ public class AutoGrind extends Module {
     );
 
     public AutoGrind() {
-        super(MeteorRejectsAddon.CATEGORY, "auto-grind", "Automatically disenchants items.");
+        super(MeteorRejectsAddon.Automation, "auto-grind", "Automatically disenchants items.");
     }
 
     @EventHandler

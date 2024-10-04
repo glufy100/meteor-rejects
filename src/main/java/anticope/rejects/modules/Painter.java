@@ -86,7 +86,7 @@ public class Painter extends Module {
     private int ticksWaited;
     
     public Painter() {
-        super(MeteorRejectsAddon.CATEGORY, "painter", "Automatically paints/covers surfaces (good for trolling)");
+        super(MeteorRejectsAddon.Automation, "painter", "Automatically paints/covers surfaces (good for trolling)");
     }
     
     @EventHandler

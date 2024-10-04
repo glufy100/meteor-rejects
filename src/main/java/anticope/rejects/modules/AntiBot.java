@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.BoolSetting;
@@ -60,7 +61,7 @@ public class AntiBot extends Module {
     );
 
     public AntiBot() {
-        super(MeteorRejectsAddon.CATEGORY, "anti-bot", "Detects and removes bots.");
+        super(Categories.Combat, "anti-bot", "Detects and removes bots.");
     }
 
     @EventHandler

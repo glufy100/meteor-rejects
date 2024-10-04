@@ -61,7 +61,7 @@ public class AutoRename extends Module {
     );
 
     public AutoRename() {
-        super(MeteorRejectsAddon.CATEGORY, "auto-rename", "Automatically renames items.");
+        super(MeteorRejectsAddon.Automation, "auto-rename", "Automatically renames items.");
     }
 
     private int delayLeft = 0;

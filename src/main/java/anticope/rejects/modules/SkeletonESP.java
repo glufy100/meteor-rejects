@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import com.mojang.blaze3d.systems.RenderSystem;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
@@ -52,7 +53,7 @@ public class SkeletonESP extends Module {
     private final Freecam freecam;
 
     public SkeletonESP() {
-        super(MeteorRejectsAddon.CATEGORY, "skeleton-esp", "Looks cool as fuck");
+        super(Categories.Render, "skeleton-esp", "Looks cool as fuck");
         freecam = Modules.get().get(Freecam.class);
     }
 

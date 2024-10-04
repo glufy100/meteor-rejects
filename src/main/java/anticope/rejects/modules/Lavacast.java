@@ -93,7 +93,7 @@ public class Lavacast extends Module {
     private Stage stage = Stage.None;
 
     public Lavacast() {
-        super(MeteorRejectsAddon.CATEGORY, "lavacast", "Automatically Lavacasts");
+        super(MeteorRejectsAddon.Build, "lavacast", "Automatically Lavacasts");
     }
 
     @Override

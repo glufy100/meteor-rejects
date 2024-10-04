@@ -34,7 +34,7 @@ public class LawnBot extends Module {
     );
 
     public LawnBot() {
-        super(MeteorRejectsAddon.CATEGORY, "lawnbot", "Replace a variety of dirt-type blocks with grass");
+        super(MeteorRejectsAddon.Build, "lawnbot", "Replace a variety of dirt-type blocks with grass");
     }
 
     @EventHandler

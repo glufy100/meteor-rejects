@@ -1,6 +1,6 @@
 package anticope.rejects.modules;
 
-
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import meteordevelopment.meteorclient.events.packets.PacketEvent;
 import meteordevelopment.meteorclient.settings.IntSetting;
@@ -26,7 +26,7 @@ public class VehicleOneHit extends Module {
     );
 
     public VehicleOneHit() {
-        super(MeteorRejectsAddon.CATEGORY, "vehicle-one-hit", "Destroy vehicles with one hit.");
+        super(Categories.Combat, "vehicle-one-hit", "Destroy vehicles with one hit.");
     }
 
     @EventHandler

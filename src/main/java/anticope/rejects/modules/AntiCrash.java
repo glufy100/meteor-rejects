@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import meteordevelopment.meteorclient.events.packets.PacketEvent;
 import meteordevelopment.meteorclient.settings.BoolSetting;
@@ -23,7 +24,7 @@ public class AntiCrash extends Module {
     );
 
     public AntiCrash() {
-        super(MeteorRejectsAddon.CATEGORY, "anti-crash", "Attempts to cancel packets that may crash the client.");
+        super(Categories.Misc, "anti-crash", "Attempts to cancel packets that may crash the client.");
     }
 
     @EventHandler

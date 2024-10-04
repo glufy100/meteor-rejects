@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import meteordevelopment.meteorclient.events.Cancellable;
 import meteordevelopment.meteorclient.events.meteor.MouseButtonEvent;
@@ -34,7 +35,7 @@ public class ShieldBypass extends Module {
     );
 
     public ShieldBypass() {
-        super(MeteorRejectsAddon.CATEGORY, "shield-bypass", "Attempts to teleport you behind enemies to bypass shields.");
+        super(Categories.Combat, "shield-bypass", "Attempts to teleport you behind enemies to bypass shields.");
     }
 
     @EventHandler

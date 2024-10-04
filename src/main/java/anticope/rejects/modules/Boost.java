@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
@@ -37,7 +38,7 @@ public class Boost extends Module {
     private int timer = 0;
 
     public Boost() {
-        super(MeteorRejectsAddon.CATEGORY, "boost", "Works like a dash move.");
+        super(Categories.Movement, "boost", "Works like a dash move.");
     }
 
     @Override

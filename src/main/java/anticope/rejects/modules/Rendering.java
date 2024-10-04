@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import meteordevelopment.meteorclient.settings.BoolSetting;
 import meteordevelopment.meteorclient.settings.EnumSetting;
@@ -88,7 +89,7 @@ public class Rendering extends Module {
     private PostEffectProcessor shader = null;
     
     public Rendering() {
-        super(MeteorRejectsAddon.CATEGORY, "rendering", "Various Render Tweaks");
+        super(Categories.Render, "rendering", "Various Render Tweaks");
     }
 
     @Override

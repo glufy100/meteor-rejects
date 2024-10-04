@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.events.world.TickEvent;
@@ -100,7 +101,7 @@ public class Confuse extends Module {
     Entity target = null;
 
     public Confuse() {
-        super(MeteorRejectsAddon.CATEGORY, "confuse", "Makes your enemies shit themselves");
+        super(Categories.Misc, "confuse", "Makes your enemies shit themselves");
     }
 
     @Override

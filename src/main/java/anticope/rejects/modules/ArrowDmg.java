@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import anticope.rejects.events.StopUsingItemEvent;
 import meteordevelopment.meteorclient.settings.BoolSetting;
@@ -35,7 +36,7 @@ public class ArrowDmg extends Module {
 
 
     public ArrowDmg() {
-        super(MeteorRejectsAddon.CATEGORY, "arrow-damage", "Massively increases arrow damage, but also consumes a lot of hunger and reduces accuracy. Does not work with crossbows and seems to be patched on Paper servers.");
+        super(Categories.Combat, "arrow-damage", "Massively increases arrow damage, but also consumes a lot of hunger and reduces accuracy. Does not work with crossbows and seems to be patched on Paper servers.");
     }
 
     @EventHandler

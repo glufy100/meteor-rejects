@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.BoolSetting;
@@ -88,7 +89,7 @@ public class AutoTNT extends Module {
     private int igniteTick = 0;
 
     public AutoTNT() {
-        super(MeteorRejectsAddon.CATEGORY, "auto-tnt", "Ignites tnt automatically. Good for griefing.");
+        super(Categories.Misc, "auto-tnt", "Ignites tnt automatically. Good for griefing.");
     }
 
     @Override

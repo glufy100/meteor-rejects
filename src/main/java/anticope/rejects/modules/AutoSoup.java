@@ -29,7 +29,7 @@ public class AutoSoup extends Module {
     private static final String desc = "Automatically eats soup when your health is low on some servers.";
 
     public AutoSoup() {
-        super(MeteorRejectsAddon.CATEGORY, "auto-soup", desc);
+        super(MeteorRejectsAddon.Automation, "auto-soup", desc);
     }
 
     private final SettingGroup sgGeneral = settings.getDefaultGroup();

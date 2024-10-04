@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import meteordevelopment.meteorclient.events.packets.PacketEvent;
 import meteordevelopment.meteorclient.settings.BoolSetting;
@@ -89,7 +90,7 @@ public class CoordLogger extends Module {
     );
     
     public CoordLogger() {
-        super(MeteorRejectsAddon.CATEGORY,"coord-logger", "Logs coordinates of various events. Might not work on Spigot/Paper servers.");
+        super(Categories.Misc,"coord-logger", "Logs coordinates of various events. Might not work on Spigot/Paper servers.");
     }
 
     @EventHandler

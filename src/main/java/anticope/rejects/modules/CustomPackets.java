@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -48,7 +49,7 @@ public class CustomPackets extends Module {
     );
 
     public CustomPackets() {
-        super(MeteorRejectsAddon.CATEGORY, "custom-packets", "Handles different non-vanilla protocols.");
+        super(Categories.Misc, "custom-packets", "Handles different non-vanilla protocols.");
     }
 
     @EventHandler

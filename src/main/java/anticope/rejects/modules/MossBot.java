@@ -44,7 +44,7 @@ public class MossBot extends Module {
     private final Map<BlockPos, Integer> mossMap = new HashMap<>();
 
     public MossBot() {
-        super(MeteorRejectsAddon.CATEGORY, "moss-bot", "Use bonemeal on moss blocks with maximized efficiency.");
+        super(MeteorRejectsAddon.Build, "moss-bot", "Use bonemeal on moss blocks with maximized efficiency.");
     }
 
     @EventHandler

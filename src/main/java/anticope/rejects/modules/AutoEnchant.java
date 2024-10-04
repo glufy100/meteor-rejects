@@ -56,7 +56,7 @@ public class AutoEnchant extends meteordevelopment.meteorclient.systems.modules.
     );
 
     public AutoEnchant() {
-        super(MeteorRejectsAddon.CATEGORY, "auto-enchant", "Automatically enchanting items.");
+        super(MeteorRejectsAddon.Automation, "auto-enchant", "Automatically enchanting items.");
     }
 
     @EventHandler

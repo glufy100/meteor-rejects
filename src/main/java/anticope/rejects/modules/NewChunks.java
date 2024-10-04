@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import meteordevelopment.meteorclient.events.packets.PacketEvent;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
@@ -98,7 +99,7 @@ public class NewChunks extends Module {
 	private final Executor taskExecutor = Executors.newSingleThreadExecutor();
 
     public NewChunks() {
-        super(MeteorRejectsAddon.CATEGORY,"new-chunks", "Detects completely new chunks using certain traits of them");
+        super(Categories.Render,"new-chunks", "Detects completely new chunks using certain traits of them");
     }
 
 	@Override

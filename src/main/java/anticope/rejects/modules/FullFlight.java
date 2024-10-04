@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import anticope.rejects.utils.RejectsUtils;
 import com.google.common.collect.Streams;
@@ -46,7 +47,7 @@ public class FullFlight extends Module {
     );
 
     public FullFlight() {
-        super(MeteorRejectsAddon.CATEGORY, "fullflight", "FullFlight.");
+        super(Categories.Movement, "fullflight", "FullFlight.");
     }
 
     private double calculateGround() {

@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import anticope.rejects.mixin.PlayerMoveC2SPacketAccessor;
 import anticope.rejects.mixin.VehicleMoveC2SPacketAccessor;
@@ -11,7 +12,7 @@ import net.minecraft.network.packet.c2s.play.VehicleMoveC2SPacket;
 
 public class RoboWalk extends Module {
     public RoboWalk() {
-        super(MeteorRejectsAddon.CATEGORY, "robo-walk", "Bypasses LiveOverflow movement check.");
+        super(Categories.Movement, "robo-walk", "Bypasses LiveOverflow movement check.");
     }
 
     private double smooth(double d) {

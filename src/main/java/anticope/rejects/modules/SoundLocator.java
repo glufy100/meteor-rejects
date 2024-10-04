@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.events.world.PlaySoundEvent;
@@ -88,7 +89,7 @@ public class SoundLocator extends Module {
     );
 
     public SoundLocator() {
-        super(MeteorRejectsAddon.CATEGORY, "sound-locator", "Prints locations of sound events.");
+        super(Categories.Misc, "sound-locator", "Prints locations of sound events.");
     }
 
     private List<Vec3d> renderPos = new ArrayList<Vec3d>();

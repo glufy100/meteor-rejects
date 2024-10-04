@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import anticope.rejects.events.PlayerRespawnEvent;
 import anticope.rejects.events.SeedChangedEvent;
@@ -71,7 +72,7 @@ public class OreSim extends Module {
 
 
     public OreSim() {
-        super(MeteorRejectsAddon.CATEGORY, "ore-sim", "Xray on crack.");
+        super(Categories.Render, "ore-sim", "Xray on crack.");
         SettingGroup sgOres = settings.createGroup("Ores");
         Ore.oreSettings.forEach(sgOres::add);
     }

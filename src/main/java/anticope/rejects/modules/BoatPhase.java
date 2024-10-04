@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import meteordevelopment.meteorclient.events.entity.BoatMoveEvent;
 import meteordevelopment.meteorclient.mixininterface.IVec3d;
@@ -76,7 +77,7 @@ public class BoatPhase extends Module {
     private BoatEntity boat = null;
 
     public BoatPhase() {
-        super(MeteorRejectsAddon.CATEGORY, "boat-phase", "Phase through blocks using a boat.");
+        super(Categories.Movement, "boat-phase", "Phase through blocks using a boat.");
     }
 
     @Override

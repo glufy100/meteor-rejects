@@ -44,7 +44,7 @@ public class TreeAura extends Module {
 
 
     public TreeAura() { // CopeTypes
-        super(MeteorRejectsAddon.CATEGORY, "tree-aura", "Plants trees around you");
+        super(MeteorRejectsAddon.Automation, "tree-aura", "Plants trees around you");
     }
 
     @Override

@@ -1,5 +1,6 @@
 package anticope.rejects.modules;
 
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import anticope.rejects.MeteorRejectsAddon;
 import anticope.rejects.mixin.HandshakeC2SPacketAccessor;
 import com.google.gson.Gson;
@@ -48,7 +49,7 @@ public class BungeeCordSpoof extends Module {
     );
 
     public BungeeCordSpoof() {
-        super(MeteorRejectsAddon.CATEGORY, "bungeeCord-spoof", "Let you join BungeeCord servers, useful when bypassing proxies.");
+        super(Categories.Misc, "bungeeCord-spoof", "Let you join BungeeCord servers, useful when bypassing proxies.");
         runInMainMenu = true;
     }
 
