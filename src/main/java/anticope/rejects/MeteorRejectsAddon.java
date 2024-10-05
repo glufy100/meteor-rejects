@@ -122,6 +122,22 @@ public class MeteorRejectsAddon extends MeteorAddon {
         modules.add(new TPFly());
         modules.add(new TrailMaker());
 
+        modules.add(new AfkLogout());
+        modules.add(new AutoCenter());
+        modules.add(new AutoWalkHIG());
+        modules.add(new AxisViewer());
+        modules.add(new HighwayBuilderHIG());
+        modules.add(new HighwayTools());
+        modules.add(new HotbarManager());
+        modules.add(new LiquidFillerHIG());
+        modules.add(new OffhandManager());
+        modules.add(new ScaffoldHIG());
+        modules.add(new AxisBorer());
+        modules.add(new NegNegBorer());
+        modules.add(new NegPosBorer());
+        modules.add(new PosNegBorer());
+        modules.add(new PosPosBorer());
+
         // Commands
         Commands.add(new CenterCommand());
         Commands.add(new ClearChatCommand());
