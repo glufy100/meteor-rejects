@@ -155,6 +155,14 @@ public class MeteorRejectsAddon extends MeteorAddon {
         Commands.add(new SetVelocityCommand());
         Commands.add(new TeleportCommand());
         Commands.add(new TerrainExport());
+        Commands.add(new WorldInfoCommand());
+        Commands.add(new ViewNbtCommand());
+        Commands.add(new AutoVclipCommand());
+        Commands.add(new AutoVaultClipCommand());
+        Commands.add(new NewChunkCounter());
+        Commands.add(new GarbageCleanerCommand());
+        Commands.add(new LavaTimeCalculator());
+        Commands.add(new CasterTimer());
 
         // HUD
         Hud hud = Systems.get(Hud.class);
